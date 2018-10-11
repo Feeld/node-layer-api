@@ -379,13 +379,24 @@ Retrieve all messages in a conversation from a specific user by providing `userI
 
 ### messages.getFromUser(userId, messageId, [callback])
 
-Retrieve a single message in a conversation from a specific user by providing `userId` and `messageId`. Response `body` will result in a single message representation.
+Delete a single message sent from a specific user by providing `userId` and `messageId`. Response `body` will result in a 
 
 ##### Arguments
 
 - `userId` - User ID
 - `messageId` - Message ID
 - `callback(err, res)` - Callback function returns an error and response objects
+
+### messages.deleteFromUser(userId, messageId, [callback])
+
+[Delete](https://docs.layer.com/reference/server_api/messages.out#delete-a-message) an existing message by providing userId an messageId.
+
+##### Arguments
+
+- `userId` - User ID
+- `messageId` - Message ID
+- `callback(err, res)` - Callback function returns an error and response objects
+
 
 ## Announcements
 
