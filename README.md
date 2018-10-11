@@ -379,7 +379,7 @@ Retrieve all messages in a conversation from a specific user by providing `userI
 
 ### messages.getFromUser(userId, messageId, [callback])
 
-Delete a single message sent from a specific user by providing `userId` and `messageId`. Response `body` will result in a 
+Retrieve a single message in a conversation from a specific user by providing `userId` and `messageId`. Response `body` will result in a single message representation.
 
 ##### Arguments
 
