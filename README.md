@@ -387,13 +387,13 @@ Retrieve a single message in a conversation from a specific user by providing `u
 - `messageId` - Message ID
 - `callback(err, res)` - Callback function returns an error and response objects
 
-### messages.deleteFromUser(userId, messageId, [callback])
+### messages.deleteFromConversation(cid, messageId, [callback])
 
-[Delete](https://docs.layer.com/reference/server_api/messages.out#delete-a-message) an existing message by providing userId an messageId.
+[Delete](https://docs.layer.com/reference/server_api/messages.out#delete-a-message) an existing message by providing conversationId an messageId.
 
 ##### Arguments
 
-- `userId` - User ID
+- `cid` - Conversation ID
 - `messageId` - Message ID
 - `callback(err, res)` - Callback function returns an error and response objects
 
